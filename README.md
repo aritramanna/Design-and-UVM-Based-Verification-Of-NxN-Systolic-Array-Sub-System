@@ -2,6 +2,8 @@
 
 This repository contains a parameterizable, cycle-accurate SystemVerilog implementation of an NxN systolic array for matrix multiplication. The design includes FIFO-based clock domain crossing, a data alignment controller for skewed injection of matrix elements, and a streaming output stage. A complete UVM testbench is provided to verify functionality, latency, flow control, and corner cases.
 
+EDA Playground: https://www.edaplayground.com/x/Jk8s
+
 ## Design Overview
 - Fully synthesizable RTL (except queue-based FIFO used for simulation)
 - Configurable `N`, `DIN_WIDTH`, and FIFO depth
